@@ -1,26 +1,45 @@
 ## Location Flow Project README
 
-This is a **Location Flow** project bootstrapped with [\`create-next-app\`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a **Location Flow** project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-First, run the development server:
+### Cloning the Repository
 
-\`\`\`bash
+1. Open your terminal.
+2. Clone the repository using the following command:
+
+   ```bash
+   git clone https://github.com/ayush-sharaf/location-flow.git
+   ```
+
+3. Navigate into the project directory:
+
+   ```bash
+   cd location-flow
+   ```
+
+### Installing Dependencies
+
+Before running the development server, you need to install the required dependencies. Run:
+
+```bash
+npm install
+```
+
+### Running the Development Server
+
+Now, run the development server:
+
+```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-\`\`\`
+```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying \`app/page.js\`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [\`next/font\`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Features
 
@@ -31,13 +50,13 @@ This project uses [\`next/font\`](https://nextjs.org/docs/basic-features/font-op
 
 ## Environment Variables
 
-Create a \`.env\` file in the root of your project and add the following variable:
+Create a `.env` file in the root of your project and add the following variable:
 
-\`\`\`
+```
 NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=your_api_key_here
-\`\`\`
+```
 
-Replace \`your_api_key_here\` with your actual Google Maps API key.
+Replace `your_api_key_here` with your actual Google Maps API key.
 
 ## Learn More
 
